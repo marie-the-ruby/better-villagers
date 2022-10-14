@@ -1,6 +1,6 @@
-package com.example.example_mod.mixin;
+package io.github.marietheruby.bettervillagers.mixin;
 
-import com.example.example_mod.ExampleMod;
+import io.github.marietheruby.bettervillagers.ExampleMod;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

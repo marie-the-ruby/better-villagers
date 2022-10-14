@@ -1,4 +1,4 @@
-package com.example.example_mod;
+package io.github.marietheruby.bettervillagers;
 
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
@@ -13,6 +13,6 @@ public class ExampleMod implements ModInitializer {
 
 	@Override
 	public void onInitialize(ModContainer mod) {
-		LOGGER.info("Hello Quilt world from {}!", mod.metadata().name());
+		LOGGER.info(mod.metadata().name() + ". Eating your villagers since 2022");
 	}
 }
